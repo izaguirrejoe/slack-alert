@@ -143,6 +143,7 @@ GEM
     rake (13.0.6)
     reline (0.3.2)
       io-console (~> 0.5)
+    slack-notifier (2.4.0)
     sqlite3 (1.6.1-arm64-darwin)
     thor (1.2.1)
     timeout (0.3.2)
@@ -161,6 +162,7 @@ DEPENDENCIES
   debug
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.2)
+  slack-notifier
   sqlite3 (~> 1.4)
   tzinfo-data
 
