@@ -1,7 +1,7 @@
 class AlertsController < ApplicationController
 
   def create
-    notifier = Slack::Notifier.new ENV[SLACK_WEBHOOK] 
+    notifier = Slack::Notifier.new ENV["SLACK_WEBHOOK"] 
     record_type = params["Type"]
     email = params["Email"]
     description = params["Description"]
